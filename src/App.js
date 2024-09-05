@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-
+// import APIHandling from './components/APIHandling';
+// import Page from './components/page2';
+// import ProjectcardSlider from './components/3dSlider/SliderComponent';
+// import ProjectCard from './components/Projectcard';
+// import AboutScreen from './components/aboutme/AboutMe';
+import Slider from './components/SkillsSlider/SkillsSlider';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <AboutScreen/> */}
+      <Slider/>
     </div>
   );
 }
