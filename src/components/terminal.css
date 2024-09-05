@@ -1,0 +1,49 @@
+.terminal-container {
+    position: relative;
+    width: 1286px; /* Adjust width as needed */
+    height: 717px; /* Adjust height as needed */
+    border: url('../Assets/TerminalBorder.svg'); /* Use the SVG as the border */
+    background-size: cover; /* Make sure the SVG covers the container */
+    background-repeat: no-repeat; /* Avoid repeating the SVG */
+    padding: 15px; /* Padding inside the SVG border */
+    box-sizing: border-box;
+  }
+  
+  .terminal-border {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .terminal-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-sizing: border-box;
+    color: green; /* Terminal text color */
+    background-color: black; /* Terminal background color */
+    overflow-y: auto;
+  }
+  
+  .terminal-command {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+  }
+  
+  .terminal-input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: green;
+    width: 100%;
+  }
+  

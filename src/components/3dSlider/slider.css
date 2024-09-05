@@ -1,0 +1,76 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  position: relative; 
+}
+
+.slick-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  height: auto;
+  position: relative; 
+}
+
+.slick-list {
+  padding: 0 100px; 
+}
+
+.slide {
+  width: 100%; 
+  padding: 10px; 
+  box-sizing: border-box;
+  transition: transform 300ms ease-in-out; 
+  opacity: 0.5;
+  transform: scale(0.8);
+}
+
+.activeSlide {
+  transform: scale(1.05); 
+  opacity: 1;
+}
+
+.arrow {
+  background-color: #fff;
+  position: absolute; 
+  cursor: pointer; 
+  z-index: 10;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.arrow svg {
+  font-size: 20px;
+}
+
+.arrow:hover {
+  background-color: #68edff;
+}
+
+.arrow:hover svg {
+  color: #fff; 
+}
+
+.next {
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%); 
+}
+
+.prev {
+  left: -20px; 
+  top: 50%; 
+  transform: translateY(-50%);
+}

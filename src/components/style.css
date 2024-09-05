@@ -1,0 +1,63 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../Assets/neuropolitical\ rg.otf);
+  }
+  :root{
+    --logoHeight: 50%;
+    --logoWidth: 50%;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    background-color: #f2f2f2;
+}
+.container nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+}
+
+
+/* logo style start to here */
+.logo{
+    height: auto;
+    width: fit-content;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+/* ended */
+.pages ul{
+    font-family: myFirstFont;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.pages ul li{
+    padding: 20px;
+    cursor: pointer;
+}
+.pages ul li:hover{
+    color: crimson;
+    transition: 0.5s;
+    scale: 1.05;
+}
+.burgerMenu{
+    display: flex;
+    position: relative;
+    right: 0;
+    padding: 10px;
+}
+.burgerMenu img{
+    width: 25px;
+    height: auto;
+}
+.burgerMenu img:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+body { margin: 0; }
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+  }
+.slide-container {
+    max-width: 100%; /* Ensures the slider doesn't overflow horizontally */
+    overflow: hidden; /* Prevents scrolling */
+}
